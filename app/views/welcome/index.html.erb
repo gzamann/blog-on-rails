@@ -1,6 +1,13 @@
 <div class="top">
 
-<h1>Hello!</h1>
+  <h1>Hello!</h1>
 
-<%= link_to 'The Blog', controller: 'articles' %>
+  <div class="homenav">
+    <span>
+      <%= link_to 'Blog', controller: 'articles' %>
+    </span>
+    <span>
+      <%= link_to 'Add', new_article_path%>
+    </span>
+  </div>
 </div>

@@ -1,34 +1,48 @@
 // Place all the styles related to the Welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-body{
+body {
     background: #00A676;
-    color:#f3eded;
+    color: #f3eded;
     font-family: 'Courier New', Courier, monospace;
     overflow-x: hidden;
 }
-a{
+
+a {
     text-decoration: none;
     font-size: 22px;
     color: #e6e6e6;
 }
-.top>a{
-    margin: 2% 0 0 5%;
+
+.homenav a {
+    margin: 0 0 0 2%;
 }
-h1{
-    font-size: 70px;
+
+.homenav span{
+    padding: 10px;
+}
+
+.homenav span:hover{
+    border-bottom: 1px solid #eee;
+}
+
+.top>h1 {
+    font-size: 140px;
     transition: all 0.3s;
     border-bottom: 1px solid #eee;
     cursor: pointer;
 }
-.top{
-    width: 240px;
-    margin-left: 5%;
-    margin-top: 5%;
+
+.top {
+    text-align: center;
+    // width: 100%;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 10%;
 }
-h1:hover{
-    box-shadow: 0 -60px 0 0 #484538 inset;
+
+h1:hover {
+    box-shadow: 0 -124px 0 0 #484538 inset;
 }
-.top>h1:hover{
-    transform: translateY(-20px); 
+
+.top>h1:hover {
+    transform: translateY(-20px);
 }
