@@ -1,15 +1,54 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-#error_explanation{
-    color:#F7F08C;
+#error_explanation {
+    color: #F7F08C;
 }
-table{
+
+.articontainer {
+    // border: 1px solid royalblue;
+    background: #14453D;
+    padding: 2%;
+    margin: 6%;
+    border-radius: 20px;
+}
+
+.articlestab tr:nth-of-type(1) {
+    font-size: 30px;
+}
+
+.articlestab tr {
+    font-size: 20px;
+}
+
+.addarti {
+    display: inline-block;
+    margin: 0 0 1% 1%;
+}
+
+.addarti a{
+    color: #81D2C7;
+}
+
+table {
     margin: 10px;
     font-size: 25px;
 }
-td{
-    padding:10px;
-    padding-top:20px;
+
+td {
+    padding: 20px;
+    padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.showbt a{
+    color: #81D2C7;
+}
+
+.editbt a{
+    color: #C8D96F;
+}
+
+.deletebt a{
+    color: #B33951;
 }
